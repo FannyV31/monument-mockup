@@ -1,0 +1,91 @@
+/* * {
+   box-sizing: border-box;
+} */
+
+nav {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  flex-direction:row;
+  justify-content: center;
+  text-transform: uppercase;
+  color: ##8197A8;
+}
+
+nav a {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  flex-direction:row;
+  justify-content: center;
+  color: ##8197A8;
+  text-decoration: none;
+  margin-top: 2em;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+background-image: url ("pt-1/starter-code/images/blog_header_bg.jpg");
+background-size: cover;
+background-position: center;
+}
+
+
+/* figure {
+  position: relative;
+  width: 30%;
+  margin-left: 10px;
+}
+figcaption {
+    position: absolute;
+    bottom-margin: 50%;
+    right-margin: 50%;
+
+  }
+h1 {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+  text-align: center;
+  color: #47545D;
+  font-family: 'Raleway', sans-serif;
+} */
+
+h2 {
+  color: #47545D;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px;
+}
+
+p {
+  color: #7D878D;
+  font-family: 'Lato', sans-serif;
+}
+
+footer {
+  background-color: azure;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer p i {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+/* Requirements
+Use flexbox in your CSS to achieve a two-column layout.
+Use inline-block to align elements next to one another (e.g., anchors in the nav).
+Add a background image to the header.
+Use FontAwesome icons for Facebook, Twitter, and Instagram in the footer.
+Use indentation in your HTML and CSS files to make your code readable.
+Use HTML and CSS validators to check for errors before submitting.
+Include browser prefixes to make sure that newer CSS properties render consistently in different browsers.
+Bonus Tasks
+Google and implement Google Fonts (Fonts are specified in bonus mockup below).
+Make the nav "sticky" (fixed) as the user scrolls.
+Add a hover effect to the links and buttons using pseudo-classes. */
