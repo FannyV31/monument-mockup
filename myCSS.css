@@ -24,6 +24,8 @@ margin-bottom: 3em;
   text-transform: uppercase;
   text-decoration:none;
   background-color: azure;
+  background-margin-top: 4em;
+  z-index: 100;
 
 }
 figure {
@@ -59,12 +61,13 @@ a {
   text-decoration: none;
 }
 
-.row {
+main {
   display: flex;
   flex-direction: column;
   justify-content: left;
   flex-wrap: wrap;
 }
+
 footer {
   background-color: azure;
   text-align: center;
