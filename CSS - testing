@@ -33,7 +33,7 @@ background-position: center;
 }
 
 
-/* figure {
+figure {
   position: relative;
   width: 30%;
   margin-left: 10px;
@@ -89,3 +89,36 @@ Bonus Tasks
 Google and implement Google Fonts (Fonts are specified in bonus mockup below).
 Make the nav "sticky" (fixed) as the user scrolls.
 Add a hover effect to the links and buttons using pseudo-classes. */
+
+section {
+    width: 30em;
+    margin: auto;
+}
+
+img {
+  float: left;
+  padding: 1em;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+
+.column {
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  .column-9 { width: 75%;
+}
+
+aside {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  .column-3 { width: 25%;
+}
