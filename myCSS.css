@@ -19,10 +19,6 @@ margin-bottom: 3em;
 #navbar {
   width: 100%;
   text-decoration:none;
-  margin-top: 3em;
-  padding-left: 3em;
-  padding-right: 3em;
-  margin-bottom: 3em;
   position: fixed;
   text-align: center;
   text-transform: uppercase;
@@ -63,7 +59,7 @@ a {
   text-decoration: none;
 }
 
-main {
+.row {
   display: flex;
   flex-direction: column;
   justify-content: left;
